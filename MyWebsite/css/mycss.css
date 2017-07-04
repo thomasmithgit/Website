@@ -1,0 +1,99 @@
+body{
+	
+	background-color: black;
+}
+
+.fa{
+	text-align: center;
+	margin: 15px;
+	
+}
+
+#wrapper{
+	
+	display: flex;
+    justify-content: space-between;
+	height: 10%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	
+}
+
+.options{
+	
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	float: right;
+	height: 100%;
+	width: 18%;
+	font-family: arial;
+	letter-spacing: 3px;
+	color: white;
+	border-radius: 10px;
+	transition: color .4s;
+	
+	
+}
+
+#lineWrapper{
+	display: flex;
+    justify-content: space-between;
+	padding: 25px;
+	padding-top: 5px;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	margin-top: 0px;
+	height: 6%;
+	
+}
+.line1{
+	background-color: white;
+	width: 40%;
+	height: 3px;
+	border-radius: 20px;
+	align: center;
+	display: flex;
+	float:left;
+}
+
+.line2{
+	background-color: white;
+	width: 40%;
+	height: 3px;
+	border-radius: 20px;
+	align: center;
+	display: flex;
+	float:right;
+}
+
+#mainImage{
+	display: flex;
+	width: 25%;
+	height: 45%;
+	margin-left: auto; 
+	margin-right: auto;
+	
+}
+
+.iconWrapper{
+	display: flex;
+	background-color: white;
+	height: 100%;
+	width: 10%;
+	border-radius: 50%;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	font-size: 5em;
+	margin: 15px;
+	
+}
+
+#skillsWrapper{
+	
+	display: flex;
+	height: 20%; 
+  	justify-content: center;
+	align: center;
+}
